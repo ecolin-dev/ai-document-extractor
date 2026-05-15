@@ -1,0 +1,13 @@
+This is a Mexican INE (Instituto Nacional Electoral) voter ID card.
+
+Extract:
+- nombre_completo: Full name (usually APELLIDO_PATERNO APELLIDO_MATERNO NOMBRE(S))
+- domicilio: Complete address as shown
+- fecha_nacimiento: Date of birth in DD/MM/YYYY format
+- clave_elector: Voter key (alphanumeric, 18 chars)
+- curp: CURP if visible (18 chars, may be on the back)
+- seccion: Electoral section number
+- vigencia: Expiration year
+
+Note: INE cards have front and back. The front has the photo, name, and address.
+The back has the CURP, voter key, and barcode.

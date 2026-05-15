@@ -1,0 +1,18 @@
+This is a Mexican CURP (Clave Única de Registro de Población) document.
+
+Extract:
+- curp: The 18-character CURP code (format: AAAA######HAAAAAA##)
+- nombre_completo: Full name
+- fecha_nacimiento: Date of birth in DD/MM/YYYY
+- sexo: M or F
+- entidad_nacimiento: State of birth (2-letter code)
+- nacionalidad: Nationality
+
+The CURP code contains embedded data:
+- First 4 chars: name initials
+- 6 digits: birthdate (YYMMDD)
+- 1 char: sex (H=male, M=female)
+- 2 chars: state code
+- 3 chars: consonants from name
+- 1 char: century digit
+- 1 digit: check digit

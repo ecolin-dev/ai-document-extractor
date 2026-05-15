@@ -1,0 +1,15 @@
+This is a Mexican vehicle invoice (factura).
+
+Extract ALL of these fields:
+- Vehicle: marca (make), modelo/linea (model/line), año (year from VIN or stated),
+  VIN/numero_de_serie (17-char alphanumeric), numero_motor, color, cilindros,
+  puertas, pasajeros, transmision, combustible, clave_vehicular
+- Invoice: numero_factura, fecha (DD/MM/YYYY), importe (total amount),
+  UUID/folio_fiscal (5-segment UUID), rfc_emisor, rfc_receptor
+- Owner: nombre_completo, RFC, domicilio
+
+Important:
+- The UUID (Folio Fiscal) is a 5-part code like: 6F645299-5254-4682-AB21-0DB3FBD6502C
+- The VIN is exactly 17 characters, alphanumeric
+- Clave vehicular is a numeric code (7 digits typically)
+- Look for the "Cadena Original del comprobante" section for the UUID

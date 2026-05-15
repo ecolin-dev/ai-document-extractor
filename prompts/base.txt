@@ -1,0 +1,9 @@
+You are analyzing a Mexican vehicle-related document. Extract ALL visible data fields.
+
+Focus on:
+- Vehicle information: VIN/serial number, make, model, year, engine, color
+- Owner information: full name, CURP, RFC, address, phone
+- Document identifiers: folio numbers, dates, reference numbers
+
+Be precise — copy values exactly as they appear in the document.
+Return null for any field you cannot confidently identify.
